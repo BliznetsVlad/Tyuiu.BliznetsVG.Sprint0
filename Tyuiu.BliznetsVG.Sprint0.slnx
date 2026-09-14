@@ -5,4 +5,9 @@
   <Folder Name="/Task1/">
     <Project Path="Tyuiu.BliznetsVG.Sprint0.Task1.V0/Tyuiu.BliznetsVG.Sprint0.Task1.V0.csproj" Id="fb5324e7-dc73-429a-8457-2acc14d7b59b" />
   </Folder>
+  <Folder Name="/Task2/">
+    <Project Path="Tyuiu.BliznetsVG.Script0.V0.Lib/Tyuiu.BliznetsVG.Sprint0.Task2.V0.Lib.csproj" Id="060d8c3e-b1db-4d53-8564-3c97ff132e87" />
+    <Project Path="Tyuiu.BliznetsVG.Sprint0.Task2.V0.Test/Tyuiu.BliznetsVG.Sprint0.Task2.V0.Test.csproj" Id="15a708ca-e3d5-43ab-ae13-a26df677f1a4" />
+    <Project Path="Tyuiu.BliznetsVG.Sprint0.Task2.V0/Tyuiu.BliznetsVG.Sprint0.Task2.V0.csproj" Id="8b6eab78-bc54-4f25-92d4-d85744343f5d" />
+  </Folder>
 </Solution>
