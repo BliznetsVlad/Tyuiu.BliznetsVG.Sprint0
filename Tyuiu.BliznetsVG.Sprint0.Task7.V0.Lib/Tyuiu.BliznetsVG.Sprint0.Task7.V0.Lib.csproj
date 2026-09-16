@@ -4,17 +4,16 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{88D5EDBA-4A7A-4ADE-95CD-CAC1126258E9}</ProjectGuid>
-    <OutputType>Exe</OutputType>
-    <RootNamespace>Tyuiu.BliznetsVG.Sprint0.Task4.V0</RootNamespace>
-    <AssemblyName>Tyuiu.BliznetsVG.Sprint0.Task4.V0</AssemblyName>
+    <ProjectGuid>{65884102-009E-441A-A3D6-1889567E64CB}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Tyuiu.BliznetsVG.Sprint0.Task7.V0.Lib</RootNamespace>
+    <AssemblyName>Tyuiu.BliznetsVG.Sprint0.Task7.V0.Lib</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
-    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
-    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
@@ -24,7 +23,6 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
-    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugType>pdbonly</DebugType>
     <Optimize>true</Optimize>
     <OutputPath>bin\Release\</OutputPath>
@@ -43,21 +41,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Program.cs" />
+    <Compile Include="DataService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\Tyuiu.BliznetsVG.Sprint0.Task3.V0.Lib\Tyuiu.BliznetsVG.Sprint0.Task3.V0.Lib.csproj">
-      <Project>{9017329B-874C-47C6-A919-8D0ABE43EDAD}</Project>
-      <Name>Tyuiu.BliznetsVG.Sprint0.Task3.V0.Lib</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\Tyuiu.BliznetsVG.Sprint0.Task4.V0.Lib\Tyuiu.BliznetsVG.Sprint0.Task4.V0.Lib.csproj">
-      <Project>{F46F1377-543A-4537-A65B-EB8553EA2F08}</Project>
-      <Name>Tyuiu.BliznetsVG.Sprint0.Task4.V0.Lib</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
